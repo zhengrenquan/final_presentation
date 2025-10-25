@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
-import matplotlib as plt
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 import numpy as np
 import re
 from collections import Counter
@@ -86,5 +88,6 @@ st.dataframe(
 )
 
 st.caption("Developed for Data Analysis Project — Streamlit Dashboard Example.")
+
 
 
