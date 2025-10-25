@@ -1,14 +1,12 @@
 import streamlit as st
 import pandas as pd
-import matplotlib
-matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
 import re
 from collections import Counter
 from pathlib import Path
 
-DATA_PATH = Path("realdonaldtrump.csv") 
+DATA_PATH = Path(r"C:\Users\19181\Desktop\realdonaldtrump.csv")
 
 @st.cache_data
 def load_data(path):
@@ -88,6 +86,8 @@ st.dataframe(
 )
 
 st.caption("Developed for Data Analysis Project — Streamlit Dashboard Example.")
+
+
 
 
 
