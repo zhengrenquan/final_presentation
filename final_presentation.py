@@ -6,7 +6,7 @@ import re
 from collections import Counter
 from pathlib import Path
 
-DATA_PATH = Path(r"C:\Users\19181\Desktop\realdonaldtrump.csv")
+DATA_PATH = Path("realdonaldtrump.csv")
 
 @st.cache_data
 def load_data(path):
@@ -86,6 +86,7 @@ st.dataframe(
 )
 
 st.caption("Developed for Data Analysis Project — Streamlit Dashboard Example.")
+
 
 
 
