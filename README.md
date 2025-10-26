@@ -1,5 +1,5 @@
 # 唐纳德·特朗普推文分析仪表盘
-## 在线演示
+## 在线演示  https://finalpresentation-qwmdaghqvlnph9untbapvb.streamlit.app/
 ## 项目简介
 本项目是一个基于 Streamlit 的数据分析仪表盘，旨在对唐纳德·特朗普的推文进行深入分析和可视化展示。通过本应用，用户可以探索推文的时间分布、互动热度、关键词频率等多方面信息。
 
